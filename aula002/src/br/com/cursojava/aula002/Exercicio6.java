@@ -10,6 +10,7 @@ public class Exercicio6 {
 		System.out.println("Digite a sua idade em dias: ");
 		int idade = Integer.parseInt(teclado.nextLine());
 		teclado.close();
+		
 		int anos = Math.round(idade/360);
 		int meses = Math.round((idade - (anos * 360))/30);
 		int dias = idade - ((anos * 360)+(meses * 30));
