@@ -18,4 +18,4 @@ public class Exercicio6 {
 		System.out.println(anos+" ano "+meses+" mês "+dias+" dias");
 	}
 
-}
+} 
