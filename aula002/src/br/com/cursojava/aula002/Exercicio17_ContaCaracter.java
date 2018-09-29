@@ -10,6 +10,7 @@ public class Exercicio17_ContaCaracter {
 		
 		System.out.println("Digite o nome de usuario: ");
 		String nome = leitor.nextLine();
+		leitor.close();
 		
 		if (nome.length() < 3){
 			System.out.println("O nome informado é invalido!!");
