@@ -17,11 +17,12 @@ public class Exercicio6 {
 			}
 
 		} while (n > 20 || n < 1);
-		int resultado = 1;
+		long resultado = 1;
 		for (int i = 1; i <= n; i++) {
 			resultado *= i; 			
 		}
 		System.out.println(resultado);
+		teclado.close();
 
 	}
 

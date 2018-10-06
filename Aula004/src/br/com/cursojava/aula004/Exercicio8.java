@@ -9,8 +9,8 @@ public class Exercicio8 {
 		Scanner teclado = new Scanner(System.in);
 		System.out.print("Digite uma palavra: ");
 		String palavra = teclado.nextLine();
+		teclado.close();
 
-		String aux = "";
 
 		for (int i = 0; i <= palavra.length(); i++) {
 
