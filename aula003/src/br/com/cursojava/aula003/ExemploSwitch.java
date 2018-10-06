@@ -5,13 +5,13 @@ import java.util.Scanner;
 public class ExemploSwitch {
 
 	public static void main(String[] args) {
-		
+
 		Scanner teclado = new Scanner(System.in);
-		
+
 		System.out.println("Digite um inteiro");
 		int dia = Integer.parseInt(teclado.nextLine());
 		teclado.close();
-		
+
 		switch (dia) {
 		case 1:
 			System.out.println("Domingo");
